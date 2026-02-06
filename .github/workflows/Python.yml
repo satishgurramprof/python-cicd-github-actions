@@ -33,7 +33,7 @@ jobs:
       - name: Docker login (Azure)
         uses: docker/login-action@v3
         with:
-          registry: ccrazurebhuvana.azurecr.io
+          registry: gaptraiing.azurecr.io
           username: ${{ vars.AZURE_CLIENT_ID }}
           password: ${{ secrets.AZURE_CLIENT_SECRET }} 
 
